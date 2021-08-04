@@ -35,8 +35,9 @@
             </li>
         </ul>
     </nav>
-    <a href="#"></a>
-    <bouton href="S'inscrire" class="sign-up">S'inscrire</bouton>
+    
+    <a href="#" class="sign-up">S'inscrire </a>
+
     
 </header>
   <main>
@@ -46,29 +47,38 @@
         <div class="bouton_recherche">
           <i class="fas fa-map-marker-alt ici"></i><input type="search" id="rechercher" name="Rechercher" placeholder="Marseille, France">
           <button id="bouton_rechercher">Rechercher</button>
-          <button id="loupe"><i class="fas fa-search"></i></button>
+         <!-- <button id="loupe"><i class="fas fa-search"></i></button>--> 
       </div>
-        <div class=box_filtres>
-            <h3 id="titre_filtres">Filtres</h3>
-            <ul id="filtres">
-                <li class="logos">
-                  <a class="money" href="#">  <i class="fas fa-money-bill-wave logofiltre"></i></a>
-                    <p class="nom_filtre">Economique</p>
-                </li>
-                <li class="logos">
-                 <a href="#"> <i class="fas fa-child logofiltre"></i></a>  
-                    <p class="nom_filtre">Familial</p>
-                </li>
-                <li class="logos">
-                   <a href="#"> <i class="fas fa-heart logofiltre"></i></a>
-                    <p class="nom_filtre">Romantique</p>
-                </li>
-                <li class="logos">
-                   <a href="#"><i class="fas fa-dog logofiltre"></i></a> 
-                    <p class="nom_filtre">Animaux autorisés</p>
-                </li>
-                </ul>
+      <div id="div-filtre">
+        <span id="titre-filtre">Filtres</span>
+        <ul>
+          <li>
+            <div class="filter-icon">
+              <i class="fas fa-money-bill-wave blue"></i>
             </div>
+            <span>Économique</span>
+          </li>
+          <li>
+            <div class="filter-icon">
+              <i class="fas fa-child blue"></i>
+            </div>
+            <span>Familial</span>
+          </li>
+          <li>
+            <div class="filter-icon">
+              <i class="fas fa-heart blue"></i>
+            </div>
+            <span>Romantique</span>
+          </li>
+          <li>
+            <div class="filter-icon">
+              <i class="fas fa-dog blue"></i>
+            </div>
+            <span>Animaux autorisés</span>
+          </li>
+        </ul>
+      </div>
+
         <div id="info">
             <i class="fas fa-info info"></i> 
             <p id="p_info">Plus de 500 logements sont disponibles dans cette ville</p>
@@ -78,7 +88,7 @@
   <section id="main-accommodation" class="wrapper grid">
   <div id="accommodation" class="wrapper grid">
     <h2>Hébergements à Marseille</h2>
-    <article id="cardH1" class="accommodation-card">
+    <article id="cardH1" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
           <img src="images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge la Cannebière">
@@ -91,12 +101,12 @@
             <i class="fas fa-star blue"></i>
             <i class="fas fa-star blue"></i>
             <i class="fas fa-star blue"></i>
-            <i class="fas fa-star blue"></i>
+            <i class="fas fa-star greyLight"></i>
           </div>
         </div>
       </a>
     </article>
-    <article id="cardH2" class="accommodation-card">
+    <article id="cardH2" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
           <img src="images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
@@ -114,7 +124,7 @@
         </div>
       </a>
     </article>
-    <article id="cardH3" class="accommodation-card">
+    <article id="cardH3" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
           <img src="images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel Les mouettes">
@@ -132,10 +142,10 @@
         </div>
       </a>
     </article>
-    <article id="cardH4" class="accommodation-card">
+    <article id="cardH4" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
-          <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
+          <img src="images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
         </div>
         <div class="cardContent">
           <h3>Hôtel de la mer</h3>
@@ -150,10 +160,10 @@
         </div>
       </a>
     </article>
-    <article id="cardH5" class="accommodation-card">
+    <article id="cardH5" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
-          <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
+          <img src="images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
         </div>
         <div class="cardContent">
           <h3>Auberge Le Panier</h3>
@@ -168,10 +178,10 @@
         </div>
       </a>
     </article>
-    <article id="cardH6" class="accommodation-card">
+    <article id="cardH6" class="carte-hebergement">
       <a href="#">
         <div class="imgContainer">
-          <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
+          <img src="images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel chez Amina">
         </div>
         <div class="cardContent">
           <h3>Hôtel chez Amina</h3>
